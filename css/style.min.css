@@ -64,114 +64,30 @@ section {
 .shadow {
   box-shadow: 0 10px 30px 0 rgba(67, 80, 98, 0.24), 0 2px 4px 0 rgba(67, 80, 98, 0.1) !important; }
 
-  #header-navbar {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 11;
-    transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-    width: 100%; /* Ensures the navbar stretches across the page */
-    display: flex;
-    justify-content: flex-start; /* Aligns the brand and nav items to the left */
-    align-items: center; /* Vertically centers the brand and collapsible div */
-    padding-left: 20px; /* Adjust this value to match the jumbotron's left padding */
-  }
+ #header-navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 11;
+  transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
 
-  .navbar-brand {
-    font-size: 40px;
-    color: #000;
-    margin-right: 20px; /* Space between the brand and the nav items */
-  }
+.navbar-brand {
+  font-size: 40px;
+  color: #000; }
 
-  #navbar-nav-header {
-    flex-grow: 0; /* Ensures the nav items container does not take extra space */
-    display: flex;
-    justify-content: flex-start; /* Aligns nav items to the left */
-    align-items: center;
-  }
+.navbar-nav .nav-link {
+  color: #fff;
+  transition: .3s ease; }
 
-  .navbar-nav {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-
-  .navbar-nav .nav-item {
-    margin: 0 15px; /* Adds margin between nav items to space them out equally */
-  }
-
-  .navbar-nav .nav-link {
-    color: #fff;
-    transition: .3s ease;
-  }
-
-  .navbar-nav:hover li a {
-    opacity: 0.5;
-  }
-
+.navbar-nav:hover li a {
+  opacity: 0.5; }
   .navbar-nav:hover li a:hover {
-    opacity: 1;
-  }
+    opacity: 1; }
 
-  .navbar-toggler {
-    font-size: 2rem;
-    color: #fff;
-  }
-
-  .nav-img img {
-    height: 90px;
-    width: 90px !important;
-    display: inline-block !important;
-    margin-right: 10px; /* Adds some space to the right of the image */
-  }
-
-
-  .navbar-brand {
-    font-size: 40px;
-    color: #000;
-    flex-grow: 0; /* Prevents the brand from taking extra space */
-  }
-
-  #navbar-nav-header {
-    flex-grow: 1; /* Ensures the nav items container takes the remaining space */
-    display: flex;
-    justify-content: center; /* Centers the nav items */
-  }
-
-  .navbar-nav {
-    display: flex;
-    justify-content: center;
-  }
-
-  .navbar-nav .nav-item {
-    margin: 0 15px; /* Adds margin between nav items to space them out equally */
-  }
-
-  .navbar-nav .nav-link {
-    color: #fff;
-    transition: .3s ease;
-  }
-
-  .navbar-nav:hover li a {
-    opacity: 0.5;
-  }
-
-  .navbar-nav:hover li a:hover {
-    opacity: 1;
-  }
-
-  .navbar-toggler {
-    font-size: 2rem;
-    color: #fff;
-  }
-
-  .nav-img img {
-    height: 90px;
-    width: 90px !important;
-    display: inline-block !important;
-    margin-right: 10px; /* Adds some space to the right of the image */
-  }
+.navbar-toggler {
+  font-size: 2rem;
+  color: #fff; }
 
 .jumbotron {
   color: #fff;
@@ -818,28 +734,36 @@ section {
 ==================================*/
 @media (max-width: 992px) {
   .not-on-top #header-navbar {
-    position: fixed;
-    top: 0;
-    height: auto;
-    width: 100%;
-    background: #ff00cc;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #081b85, #085a85);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #081b85, #085a85);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    z-index: 11; }
+      position: fixed;
+      top: 0;
+      height: auto;
+      width: 100%;
+      background: #ff00cc; /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #081b85, #085a85); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #081b85, #085a85); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      z-index: 11;
+  }
+
   #header-navbar {
-    padding-top: 15px !important;
-    padding-bottom: 15px !important; }
-  .navbar-transparent .navbar-collapse {
-    background: #ff00cc;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #081b85, #085a85);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #081b85, #085a85);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 10px; } }
+      padding-top: 15px !important;
+      padding-bottom: 15px !important;
+  }
+
+  .navbar-collapse {
+      background: #ff00cc;
+      background: -webkit-linear-gradient(to right, #081b85, #085a85);
+      background: linear-gradient(to right, #081b85, #085a85);
+      padding: 10px;
+  }
+
+  .navbar-nav {
+      text-align: center;
+  }
+
+  .navbar-toggler {
+      margin-left: auto;
+  }
+}
 
 @media (max-width: 767px) {
   .jumbotron h4 {
