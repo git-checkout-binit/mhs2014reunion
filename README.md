@@ -1,6 +1,6 @@
 # The Epic Assembly of Classmates
 
-In a realm where standing in lines is the norm and bells signal the hour, a young lad, entrusted with a daring quest, embarks on a journey unprecedented. The tale you are about to undertake has been woven in the great tapestry of time, combining adventure, courage, and a steadfast spirit of unity. Our protagonist, an old man named Binit, stood bravely before his calling: to assemble his classmates and bring about joy in a time of great boredom.
+In a realm where standing in lines is the norm and bells signal the hour, a young lad, entrusted with a daring quest, embarks on a journey unprecedented. The tale you are about to undertake has been woven in the great tapestry of time, combining adventure, courage, and a steadfast spirit of unity. Our protagonist, a young man named Binit, stood bravely before his calling: to assemble his classmates and bring about joy in a time of great boredom.
 
 ## The Beginning
 
