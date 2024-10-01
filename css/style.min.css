@@ -809,9 +809,3 @@ section {
   transform-origin: 0 0;
   -webkit-transform-origin: 0 0;
 }
-
-.contact-form {
-  max-width: 400px;
-  margin: auto;
-  padding: 20px;
-}
