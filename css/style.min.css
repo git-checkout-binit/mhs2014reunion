@@ -738,7 +738,7 @@ section {
       top: 0;
       height: auto;
       width: 100%;
-      background: #ff00cc; /* fallback for old browsers */
+      background: #085a85; /* fallback for old browsers */
       background: -webkit-linear-gradient(to right, #081b85, #085a85); /* Chrome 10-25, Safari 5.1-6 */
       background: linear-gradient(to right, #081b85, #085a85); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       z-index: 11;
@@ -750,7 +750,7 @@ section {
   }
 
   .navbar-collapse {
-      background: #ff00cc;
+      background: #085a85;
       background: -webkit-linear-gradient(to right, #081b85, #085a85);
       background: linear-gradient(to right, #081b85, #085a85);
       padding: 10px;
