@@ -757,11 +757,37 @@ section {
 @media (max-width: 767px) {
   .jumbotron h4 {
     font-size: 2.5rem;
-    word-wrap: break-word;}
+    word-wrap: break-word !important; }
+  b, body { word-wrap: break-word !important; }
   .grid-item {
     width: 50%; }
   .progress {
     height: 30px;
     font-size: 16px; } }
+  .row {
+    margin-left: 0px;
+    word-wrap: break-word; /* Compatibility with older browsers */
+    overflow-wrap: break-word; /* Standard property */
+    box-sizing: border-box;
+    max-width: 100%;
+  }
 
 /*=====  End of RESPONSIVE  ======*/
+
+
+.form-control-outline {
+  background-color: transparent;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  color: #495057;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control-outline:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  border: 1px solid #80bdff;
+}
+
+.contact-form button {
+  width: 100%;
+}
