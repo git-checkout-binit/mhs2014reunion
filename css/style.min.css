@@ -737,9 +737,9 @@ section {
     width: 100%;
     background: #ff00cc;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to right, #081b85, #850879);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #081b85, #850879);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11; }
   #header-navbar {
@@ -748,17 +748,18 @@ section {
   .navbar-transparent .navbar-collapse {
     background: #ff00cc;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to right, #081b85, #850879);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #081b85, #850879);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px; } }
 
 @media (max-width: 767px) {
-  .jumbotron h1 {
-    font-size: 6rem; }
+  .jumbotron h4 {
+    font-size: 2.5rem;
+    word-wrap: break-word;}
   .grid-item {
-    width: 100%; }
+    width: 50%; }
   .progress {
     height: 30px;
     font-size: 16px; } }
