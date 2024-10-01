@@ -117,5 +117,31 @@
 	<!-- Main JS -->
 	<script src="js/app.min.js "></script>
 	<script src="//localhost:35729/livereload.js"></script>
+    <script>
+        document.querySelector('form').addEventListener('submit', function(e){
+            e.preventDefault();
+
+            var email = document.querySelector('#email').value;
+            var phone = document.querySelector('#phoneNumber').value;
+
+            // Following is the regular expression to validate a US phone number
+            var phoneRegEx = /^(\+0?1\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/;
+
+            // Following is the regular expression to validate an email address
+            var emailRegEx = /^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/;
+
+            if(!phoneRegEx.test(phone)){
+                alert('Invalid phone number');
+                return false;
+            }
+
+            if(!emailRegEx.test(email)){
+                alert('Invalid email address');
+                return false;
+            }
+
+            this.submit();
+        });
+    </script
 </body>
 </html>
