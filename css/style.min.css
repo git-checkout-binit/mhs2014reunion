@@ -91,7 +91,7 @@ section {
 
 .jumbotron {
   color: #fff;
-  padding-top: 80px;
+  padding-top: 200px;
   padding-bottom: 80px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,9 +118,9 @@ section {
     right: 0;
     background: #ff00cc;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to right, #081b85, #850879);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #081b85, #850879);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .jumbotron h1 {
     line-height: .9;
@@ -149,9 +149,9 @@ section {
     right: 0;
     background: #ff00cc;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to right, #081b85, #850879);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #081b85, #850879);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .overlay.bg-white {
     color: #000; }
@@ -405,6 +405,12 @@ section {
 /*=============================
 =            TESTI            =
 =============================*/
+
+.nav-img img {
+  height: 90px;
+  width: 90px !important;
+  display: inline-block !important; }
+
 .testi-img img {
   height: 60px;
   width: 60px !important;
