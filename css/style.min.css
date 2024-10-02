@@ -811,3 +811,9 @@ section {
   transform-origin: 0 0;
   -webkit-transform-origin: 0 0;
 }
+
+#disclaimer {
+  font-weight: lighter;
+  margin-top: 20px;
+  color: #818589;
+}
